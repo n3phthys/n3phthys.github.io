@@ -40,11 +40,3 @@
 > Because those services is now **aggresiveness** and turned into the **extremely for-profit greeding**...
 
 - - - - - - - - - -
-### [ThaiParanoidBlock](https://github.com/kowith337/ThaiParanoidBlock)
-**Type**: Filterlist
-
-**Compatible**: uBlock Origin, Nano Adblocker
-
-**WDID**: Block and prevent ads, tracking, suggestions that mostly use in Thai sites
-
-- - - - - - - - - -
