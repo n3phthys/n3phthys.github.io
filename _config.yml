@@ -1,4 +1,4 @@
-name: นู่นนี่นั่น
+name: Noonneenan
 description: by Paiji
 url: #place url
 gems: [jekyll-paginate]
@@ -9,7 +9,7 @@ paginate_path: /page/:num/
 tag_dir: /tag
 category_dir: /category
 author_dir: /author
-author_title_prefix: 'Posted by '
+author_title_prefix: "Posted by "
 media_folder: /img
 author_default_avatar: /profile-pic.jpg
 tumblr: "#"
@@ -23,8 +23,7 @@ soundcloud: "#"
 
 encoding: utf-8
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
@@ -36,7 +35,17 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 relative_permalinks: false
-exclude: [.git, .gitignore, sass, .sass-cache, package.json, gruntfile.js, node_modules, README.md]
+exclude:
+  [
+    .git,
+    .gitignore,
+    sass,
+    .sass-cache,
+    package.json,
+    gruntfile.js,
+    node_modules,
+    README.md,
+  ]
 
 # prose.io configurations
 prose:
@@ -118,4 +127,3 @@ prose:
           label: "YouTube Video ID"
           help: "Set post type to youtube in order for this to work. Do not set featured image, as the youtube video thumbnail will be used"
           type: "text"
-
