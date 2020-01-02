@@ -1,6 +1,6 @@
 name: Noonneenan
 description: by Paiji
-url: #place url
+url: https://n3phthys.github.io/
 gems: [jekyll-paginate]
 baseurl: #place folder name if site is served in subfolder
 permalink: /:title/
