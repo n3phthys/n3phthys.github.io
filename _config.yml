@@ -1,6 +1,6 @@
-name: Noonneenan
-description: by Paiji
-url: https://n3phthys.github.io/
+name: Twister
+description: a powerful jekyll theme
+url: #place url
 gems: [jekyll-paginate]
 baseurl: #place folder name if site is served in subfolder
 permalink: /:title/
@@ -9,7 +9,7 @@ paginate_path: /page/:num/
 tag_dir: /tag
 category_dir: /category
 author_dir: /author
-author_title_prefix: "Posted by "
+author_title_prefix: 'Posted by '
 media_folder: /img
 author_default_avatar: /profile-pic.jpg
 tumblr: "#"
@@ -23,7 +23,8 @@ soundcloud: "#"
 
 encoding: utf-8
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
       type: "posts"
     values:
@@ -35,17 +36,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 relative_permalinks: false
-exclude:
-  [
-    .git,
-    .gitignore,
-    sass,
-    .sass-cache,
-    package.json,
-    gruntfile.js,
-    node_modules,
-    README.md,
-  ]
+exclude: [.git, .gitignore, sass, .sass-cache, package.json, gruntfile.js, node_modules, README.md]
 
 # prose.io configurations
 prose:
